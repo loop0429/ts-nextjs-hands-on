@@ -1,3 +1,5 @@
+// 404page用
+
 import React from 'react'
 import { NextContext } from 'next'
 import Head from 'next/head'

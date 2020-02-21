@@ -1,5 +1,6 @@
 import React from 'react'
 import Next from 'next'
+// scoped cssはSSRで非対応なため、styled-componentsを導入
 import styled from 'styled-components'
 // ______________________________________________________
 //

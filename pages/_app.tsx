@@ -1,3 +1,6 @@
+// すべてのページコンポーネントで共通する処理を実行できる
+// reduxのProviderを設け、Store初期データの注入など
+
 import * as React from 'react'
 import App, { Container, NextAppContext } from 'next/app'
 // ______________________________________________________

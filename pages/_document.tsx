@@ -1,5 +1,9 @@
+// _documentには、サーバーサイドのみで実行される共通処理を記述する
+// NextDocumentContextには、request/responseが含まれている
+
 import * as React from 'react'
 import Document, { NextDocumentContext } from 'next/document'
+// scoped cssはSSRで非対応なため、styled-componentsを導入
 import { ServerStyleSheet } from 'styled-components'
 import DefaultLayout from '../layouts/index'
 // ______________________________________________________
